@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#2a1a5e"/>
+      <stop offset="0.55" stop-color="#141030"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </radialGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd76e"/>
+      <stop offset="0.45" stop-color="#ff5fa2"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g transform="translate(256 262) scale(1) translate(-256 -262)">
+    <path d="M256 70 C 270 190, 300 232, 420 262 C 300 292, 270 334, 256 454 C 242 334, 212 292, 92 262 C 212 232, 242 190, 256 70 Z" fill="url(#star)" filter="url(#glow)" opacity="0.75"/>
+    <path d="M256 70 C 270 190, 300 232, 420 262 C 300 292, 270 334, 256 454 C 242 334, 212 292, 92 262 C 212 232, 242 190, 256 70 Z" fill="url(#star)"/>
+    <path d="M256 150 L 300 214 L 274 214 L 274 300 L 238 300 L 238 214 L 212 214 Z" fill="#0b0d12" opacity="0.88"/>
+    <path d="M392 96 C 396 122, 404 130, 430 134 C 404 138, 396 146, 392 172 C 388 146, 380 138, 354 134 C 380 130, 388 122, 392 96 Z" fill="#ffe7a8"/>
+  </g>
+</svg>
