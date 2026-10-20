@@ -1,0 +1,1 @@
+import{h as s,d1 as c}from"./index-DTAGDe42.js";async function a(t){return c(t,{maxEdge:1600,quality:.82,thumbEdge:320,thumbQuality:.75})}function n(t){const[u,e]=s.useState();return s.useEffect(()=>{if(!t){e(void 0);return}const r=URL.createObjectURL(t);return e(r),()=>URL.revokeObjectURL(r)},[t]),u}export{a as c,n as u};
